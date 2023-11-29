@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class Test123 {
 
 	
-	@Test
+	@Test(groups = "Smoke")
 	public void demo () {
 		System.out.println("Hi Demo");
 	}
@@ -15,7 +15,7 @@ public class Test123 {
 		System.out.println("Hi Demo1");
 	}
 	
-	@Test
+	@Test(groups = "Regression")
 	public void demo2 () {
 		System.out.println("Hi Demo2");
 	}
