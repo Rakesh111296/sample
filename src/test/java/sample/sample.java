@@ -7,6 +7,10 @@ public class sample {
 	@Test(groups = "Smoke")
 	public void sample3 () {
 		System.out.println("Hi sample");
+		
+		
+		
+		
 	}
 	
 	@Test
