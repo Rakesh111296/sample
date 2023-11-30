@@ -22,6 +22,7 @@ public class parameterized_test {
 		
 		
 		if (BROWSER.equalsIgnoreCase("Chrome")) {
+			
 			driver= new ChromeDriver();
 		}
 		else if (BROWSER.equalsIgnoreCase("edge")) {
